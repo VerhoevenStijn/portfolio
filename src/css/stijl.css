@@ -15,6 +15,12 @@ header{
 	width: 100%;
 	margin-bottom: 10rem;
 	z-index: 2;
+  transition: top 0.2s ease-in-out;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.nav-up {
+  top: -140px;
 }
 
 main{
@@ -35,7 +41,7 @@ main{
 
 .container{
 	position: absolute;
-	right: 5rem; top: 5rem;
+	right: 5rem; top: 3rem;
 }
 .bar1, .bar2, .bar3 {
   width: 4rem;
@@ -62,9 +68,6 @@ main{
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-nav{
-	padding: 2rem;
-}
 
 nav ul li a{
 	color: white;
@@ -149,6 +152,54 @@ h3{
 	text-align: center;
 }
 
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20rem;
+}
+
+.arrows path {
+	stroke: #ff6500;
+	fill: transparent;
+	stroke-width: 3px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
 h4{
 	font-size: 5rem;
 	font-weight: bold;
@@ -157,13 +208,24 @@ h4{
 	margin-left: 2rem;
 }
 
+#object {
+    position:	fixed;
+    left: 1rem;
+    bottom: 5%;
+    height: 30px;
+    width: 500px;
+		font-size: 5rem;
+		color: rgba(0,0,0,0.2);
+		z-index: -10;
+}
+
 /* Slideshow container */
 .slideshow-container {
-	max-width: 800px;
+	max-width: 700px;
 	overflow:inherit;
   position: relative;
   margin: auto;
-	margin-bottom: 30rem;
+	margin-bottom: 35rem;
 	background-color: white;
 	position: sticky;
 	bottom: 5rem;
@@ -211,10 +273,47 @@ h4{
   color: black;
   font-size: 15px;
   padding: 8px 12px;
+	font-size: 2.5rem;
   position: absolute;
+	max-width: 70vw;
   bottom: -10rem;
   width: 100%;
   left: 10rem;
+	font-weight: bold;
+}
+
+.text2 {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -30rem;
+  width: 70%;
+	line-height: 2.5rem;
+  left: 10rem;
+}
+
+.link{
+	color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -35rem;
+  width: 70%;
+	line-height: 2.5rem;
+  left: 10rem;
+}
+
+.linkArrow{
+	animation: groei 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes groei {
+	0% {left: 10rem;}
+	100% {left: 11rem;}
+}
+strong{
+	font-weight: bold;
 }
 
 /* Fading animation */
@@ -240,13 +339,48 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-
-  background: #ff6500;
+	height: 40rem;
+  background: black;
   display: grid;
-  place-items: center;
-  padding: 50px;
+	padding-top: 5rem;
+	max-width: 70rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+footer h3{
+	color:#ff6500;
+	font-size:5rem;
+	text-align: center;
+}
+
+footer p{
+	color:white;
+	font-size: 2rem;
+	text-align: center;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+footer ul li:nth-child(1){
+	color:white;
+	font-weight: bold;
+	padding-left: 4rem;
+	font-size: 2rem;
+	margin-bottom: 1.6rem;
+
+}
+footer ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 1.6rem;
+	text-align: left;
+	padding-left: 4rem;
+	line-height: 2.5rem;
+}
+
+footer ul li a:hover{
+	text-decoration: underline;
+}
 @media (min-width: 800px) {
 	.close{
 		display: flex;
@@ -350,4 +484,108 @@ footer {
 		text-align: center;
 	}
 
+
+	/* Slideshow container */
+	.slideshow-container {
+		max-width: 700px;
+		overflow:inherit;
+	  position: relative;
+		margin-left: 5rem;
+		margin-bottom: 20rem;
+		background-color: white;
+		position: sticky;
+		bottom: 5rem;
+		left: 0;
+		z-index: -1;
+	}
+
+	/* Hide the images by default */
+	.mySlides {
+	  display: none;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  width: 8rem;
+	  padding: 2rem;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	  left: 62rem;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	.prev {
+		left: 0;
+		bottom:0;
+		background-color: rgba(0,0,0,0.5);
+	}
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+
+	/* Caption text */
+	.text {
+	  color: black;
+	  font-size: 15px;
+	  padding: 8px 12px;
+		font-size: 2.5rem;
+	  position: absolute;
+		max-width: 70vw;
+	  bottom: 40rem;
+	  width: 100%;
+	  left: 72rem;
+		font-weight: bold;
+	}
+
+	.text2 {
+	  color: black;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+		bottom: 22rem;
+	  width: 30vw;
+	  left: 72rem;
+		line-height: 2.5rem;
+	}
+
+	.link{
+		color: black;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+		bottom: 18rem;
+	  width: 100%;
+	  left: 72rem;
+		line-height: 2.5rem;
+	}
+	.linkArrow{
+		animation: groei 1s;
+		animation-fill-mode: forwards;
+	}
+	@keyframes groei {
+		0% {left: 10rem;}
+		100% {left: 11rem;}
+	}
+
+	#object {
+	    position:	fixed;
+	    left: 100rem;
+	    bottom: 5%;
+	    height: 30px;
+	    width: 1500px;
+			font-size: 15rem;
+			color: rgba(0,0,0,0.2);
+			z-index: -10;
+	}
 }
