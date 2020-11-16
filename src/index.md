@@ -35,6 +35,7 @@ custom_css: ""
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <img src="../img/code3.jpeg" style="width:100%">
+    <div class="numbertext">1 / 3</div>
     <div class="text">Handcrafted Webdesigner - UX / UI</div>
     <div class="text2">
       Today, a company's website is so much more than a digital name tag. It offers you endless possibilities in <strong>displaying your corporate identity & goals to the whole world.</strong> With my digital knowledge and marketing background I want to take advantage of these opportunities.
@@ -44,15 +45,17 @@ custom_css: ""
 
   <div class="mySlides fade">
     <img src="../img/branding.jpg" style="width:100%">
+    <div class="numbertext">2 / 3</div>
     <div class="text">Brand & Identity Building</div>
     <div class="text2">
       The perfect corporate identity and logo can represent much more than thousands of words. When I work on the branding of projects and enterprises, I always strive to <strong>incorporate the brand and the person behind the brand in my designs.</strong>
     </div>
-    <<a href="#" class="link">Explore My Branding Skills &rarr;</a>
+    <a href="#" class="link">Explore My Branding Skills &rarr;</a>
   </div>
 
   <div class="mySlides fade">
     <img src="../img/marketing.jpeg" style="width:100%">
+    <div class="numbertext">3 / 3</div>
     <div class="text">Digital Marketing</div>
     <div class="text2">
       TFor almost every company, large or small, young or old, marketing is and remains key. Where marketing 10 years ago was more of an offline thing, <strong>the pure focus today is online.</strong> Because of my digital knowledge I am able to transform ideas on paper into digital reality.

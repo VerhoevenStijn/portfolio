@@ -158,7 +158,7 @@ h3{
 	position: absolute;
 	left: 50%;
 	margin-left: -30px;
-	bottom: 20rem;
+	bottom: 10rem;
 }
 
 .arrows path {
@@ -304,6 +304,14 @@ h4{
   left: 10rem;
 }
 
+.numbertext{
+	font-size: 1.6rem;
+	position: absolute;
+	bottom: -3rem;
+	width: 70%;
+	line-height: 2.5rem;
+	left: 11.5rem;
+}
 .linkArrow{
 	animation: groei 1s;
 	animation-fill-mode: forwards;
@@ -569,6 +577,16 @@ footer ul li a:hover{
 	  left: 72rem;
 		line-height: 2.5rem;
 	}
+
+	.numbertext{
+		font-size: 1.6rem;
+		position: absolute;
+		bottom: 1rem;
+		width: 70%;
+		line-height: 2.5rem;
+		left: 74rem;
+	}
+
 	.linkArrow{
 		animation: groei 1s;
 		animation-fill-mode: forwards;
@@ -587,5 +605,14 @@ footer ul li a:hover{
 			font-size: 15rem;
 			color: rgba(0,0,0,0.2);
 			z-index: -10;
+	}
+
+	.arrows {
+		width: 60px;
+		height: 72px;
+		position: absolute;
+		left: 50%;
+		margin-left: -30px;
+		bottom: 10%;
 	}
 }
