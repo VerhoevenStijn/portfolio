@@ -13,36 +13,42 @@ custom_css: ''
   <div class="vlak">
     <div class="vlak-hover"></div>
     <div class="titel">Project 1</div>
+    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
     <div class="text">tag1 &#65372 tag2 &#65372 tag3 &#65372 </div>
   </div>
 
   <div class="vlak">
     <div class="vlak-hover"></div>
     <div class="titel">Project 2</div>
+    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
     <div class="text">tag1 &#65372 tag2 &#65372 tag3 &#65372 </div>
   </div>
 
   <div class="vlak">
     <div class="vlak-hover"></div>
     <div class="titel">Project 3</div>
+    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
     <div class="text">tag1 &#65372 tag2 &#65372 tag3 &#65372 </div>
   </div>
 
   <div class="vlak">
     <div class="vlak-hover"></div>
     <div class="titel">Project 4</div>
+    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
     <div class="text">tag1 &#65372 tag2 &#65372 tag3 &#65372 </div>
   </div>
 
   <div class="vlak">
     <div class="vlak-hover"></div>
     <div class="titel">Project 5</div>
+    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
     <div class="text">tag1 &#65372 tag2 &#65372 tag3 &#65372 </div>
   </div>
 
   <div class="vlak">
     <div class="vlak-hover"></div>
     <div class="titel">Project 6</div>
+    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
     <div class="text">tag1 &#65372 tag2 &#65372 tag3 &#65372 </div>
   </div>
 </div>
