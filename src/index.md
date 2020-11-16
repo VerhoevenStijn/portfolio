@@ -1,6 +1,8 @@
 ---
 title: 'Home'
 layout: 'layouts/home.html'
+link_css: 'home'
+custom_js: 'home'
 custom_css: ""
 ---
 
