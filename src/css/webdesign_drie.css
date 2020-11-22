@@ -203,7 +203,7 @@ main img{
   gap: 5rem;
 }
 
-p:nth-child(2){
+main p:nth-child(2){
   width: 70vw;
 }
 
