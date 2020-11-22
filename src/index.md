@@ -37,7 +37,7 @@ image: ../img/logo3.png
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <img src="../img/code3.jpeg" style="width:100%">
+    <img src="../img/code3.jpg" style="width:100%">
     <div class="numbertext">1 / 3</div>
     <div class="text">Handcrafted Webdesigner - UX / UI</div>
     <div class="text2">
