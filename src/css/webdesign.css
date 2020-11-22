@@ -74,12 +74,12 @@
   background-position: left;
   background-size: cover;
 }
-.vlak:hover:nth-child(1) > .vlak-hover{background-color: #0A00FF;}
-.vlak:hover:nth-child(2) > .vlak-hover{background-color: #982200;}
-.vlak:hover:nth-child(3) > .vlak-hover{background-color: #DC5C57;}
-.vlak:hover:nth-child(4) > .vlak-hover{background-color: #FF6500;}
-.vlak:hover:nth-child(5) > .vlak-hover{background-color: #17BEBB;}
-.vlak:hover:nth-child(6) > .vlak-hover{background-color: #0E7C7B;}
+.containerWeb a:nth-child(1) .vlak:hover > .vlak-hover{background-color: #0A00FF;}
+.containerWeb a:nth-child(2) .vlak:hover > .vlak-hover{background-color: #982200;}
+.containerWeb a:nth-child(3) .vlak:hover  > .vlak-hover{background-color: #DC5C57;}
+.containerWeb a:nth-child(4) .vlak:hover > .vlak-hover{background-color: #FF6500;}
+.containerWeb a:nth-child(5) .vlak:hover > .vlak-hover{background-color: #17BEBB;}
+.containerWeb a:nth-child(6) .vlak:hover > .vlak-hover{background-color: #0E7C7B;}
 .vlak-hover{
 	width: 100%;
 	height: 100%;
@@ -190,15 +190,15 @@ h1{
 	grid-template-columns: 1fr 1fr;
 }
 
-.vlak:nth-child(2){
+.containerWeb a:nth-child(2) .vlak{
   margin-top: 6rem;
 }
 
-.vlak:nth-child(4){
+.containerWeb a:nth-child(4) .vlak{
   margin-top: 6rem;
 }
 
-.vlak:nth-child(6){
+.containerWeb a:nth-child(6) .vlak{
   margin-top: 6rem;
 }
 }
