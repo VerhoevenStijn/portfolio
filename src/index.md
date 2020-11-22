@@ -57,7 +57,7 @@ image: ../img/logo3.png
   </div>
 
   <div class="mySlides fade">
-    <img src="../img/marketing.jpeg" style="width:100%">
+    <img src="../img/marketing.jpg" style="width:100%">
     <div class="numbertext">3 / 3</div>
     <div class="text">Digital Marketing</div>
     <div class="text2">
