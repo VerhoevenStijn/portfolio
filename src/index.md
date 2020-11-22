@@ -4,6 +4,7 @@ layout: 'layouts/home.html'
 link_css: 'home'
 custom_js: 'home'
 custom_css: ""
+image: ../img/logo3.png
 ---
 
 <div class="landingpage hero-image">
@@ -42,7 +43,7 @@ custom_css: ""
     <div class="text2">
       Today, a company's website is so much more than a digital name tag. It offers you endless possibilities in <strong>displaying your corporate identity & goals to the whole world.</strong> With my digital knowledge and marketing background I want to take advantage of these opportunities.
     </div>
-    <a href="#" class="link">Explore My Webdesign Skills &rarr;</a>
+    <a href="/webdesign" class="link">Explore My Webdesign Skills &rarr;</a>
   </div>
 
   <div class="mySlides fade">

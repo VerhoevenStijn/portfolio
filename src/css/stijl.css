@@ -148,16 +148,8 @@ footer ul li a:hover{
 	}
 
 	.logo{
-		width: 25rem;
-		animation: groei;
-		animation-duration: 0.5s;
-		animation-fill-mode: forwards;
+		width: 30rem;
 	}
-
- @keyframes groei {
- 	0% { width: 25rem;}
-	100% {width: 30rem;}
- }
 
  nav{
  	width: 80rem;

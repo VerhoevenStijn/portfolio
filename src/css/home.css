@@ -56,7 +56,7 @@ h3{
 	line-height: 7rem;
 	color:#ff6500;
 	font-weight: bold;
-	font-size: 5rem;
+	font-size: 4rem;
 	text-align: center;
 }
 
@@ -258,6 +258,13 @@ strong{
 }
 @media (min-width: 800px) {
 
+    .landingpage{
+    height: 120vh;
+    margin-top: -30rem;
+    padding-top: 20rem;
+    margin-bottom: 5rem;
+    }
+
 		.headline{
 			color: white;
 			font-size: 6rem;
@@ -402,5 +409,5 @@ strong{
 			position: absolute;
 			left: 50%;
 			margin-left: -30px;
-			bottom: 10%;
+			bottom: 20%;
 		}
