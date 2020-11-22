@@ -29,7 +29,6 @@ header nav ul li a.selected{
 .imgHolder{
   position: absolute;
   top: -26rem;
-  background-image: url(/img/campus.jpg);
   background-size: cover;
   background-position: center;
   height:50rem;
