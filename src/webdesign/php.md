@@ -17,6 +17,9 @@ img1: 'php'
 img2: 'php1'
 img3: 'php2'
 custom_css: '
+main{
+  height: 240vh;
+}
 @media (min-width: 800px) {
   main{
     height: 260vh;
