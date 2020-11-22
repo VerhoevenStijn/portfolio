@@ -199,6 +199,7 @@ main img{
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 2rem;
+  margin: 2rem;
   gap: 5rem;
 }
 

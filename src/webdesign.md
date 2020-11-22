@@ -41,15 +41,8 @@ image: ../img/logo3.png
 
   <div class="vlak">
     <div class="vlak-hover"></div>
-    <div class="titel">Project 5</div>
-    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
-    <div class="text">tag1 &#65372 tag2 &#65372 tag3 &#65372 </div>
-  </div>
-
-  <div class="vlak">
-    <div class="vlak-hover"></div>
-    <div class="titel">Project 6</div>
-    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
-    <div class="text">tag1 &#65372 tag2 &#65372 tag3 &#65372 </div>
+    <div class="titel">PHP Project</div>
+    <span class="verborgen"><a href='/webdesign/php'>View Project &#8594;</a></span>
+    <div class="text">PHP &#65372 Learning &#65372 Coder</div>
   </div>
 </div>

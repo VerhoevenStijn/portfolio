@@ -69,6 +69,12 @@
   background-position: left;
   background-size: cover;
 }
+
+.vlak:nth-child(5) {
+  background-image: url(/img/code3.jpg);
+  background-position: left;
+  background-size: cover;
+}
 .vlak:hover:nth-child(1) > .vlak-hover{background-color: #0A00FF;}
 .vlak:hover:nth-child(2) > .vlak-hover{background-color: #982200;}
 .vlak:hover:nth-child(3) > .vlak-hover{background-color: #DC5C57;}
