@@ -45,31 +45,31 @@
 	transition: 0.3s ease;
  }
 
-.vlak:nth-child(1) {
+.containerWeb a:nth-child(1) .vlak {
   background-image: url(/img/sinc.jpg);
   background-position: left;
   background-size: cover;
 }
 
-.vlak:nth-child(2) {
+.containerWeb a:nth-child(2) .vlak  {
   background-image: url(/img/mit4.jpg);
   background-position: left;
   background-size: cover;
 }
 
-.vlak:nth-child(3) {
+.containerWeb a:nth-child(3) .vlak {
   background-image: url(/img/ap4.jpg);
   background-position: left;
   background-size: cover;
 }
 
-.vlak:nth-child(4) {
+.containerWeb a:nth-child(4) .vlak  {
   background-image: url(/img/pf.jpg);
   background-position: left;
   background-size: cover;
 }
 
-.vlak:nth-child(5) {
+.containerWeb a:nth-child(5) .vlak {
   background-image: url(/img/code3.jpg);
   background-position: left;
   background-size: cover;
