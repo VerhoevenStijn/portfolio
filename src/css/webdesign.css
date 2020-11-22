@@ -45,6 +45,18 @@
 	transition: 0.3s ease;
  }
 
+ .containerWeb a .vlak::after {
+  content: "";
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 .containerWeb a:nth-child(1) .vlak {
   background-image: url(/img/sinc.jpg);
   background-position: left;
@@ -148,7 +160,7 @@ h1{
 
 .titel{
   position: absolute;
-  left: 42%;
+  right: 2%;
   top: 2rem;
   color: white;
   font-size: 2rem;
@@ -156,7 +168,7 @@ h1{
 
 .text{
   position: absolute;
-  left: 30%;
+  left: 2%;
   bottom: 4rem;
   color: white;
   font-size: 1.6rem;
