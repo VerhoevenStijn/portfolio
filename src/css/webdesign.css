@@ -124,7 +124,7 @@ header nav ul li a.selected{
   position: absolute;
   top: 50%;
   left: -10rem;
-  font-size: 4rem;
+  font-size: 3rem;
   text-decoration: underline;
   z-index: 4;
   color:white;
@@ -179,6 +179,9 @@ h1{
 
   h1{
     font-size: 3rem;
+  }
+  .verborgen{
+    font-size: 4rem;
   }
 .containerWeb{
 	display: grid;

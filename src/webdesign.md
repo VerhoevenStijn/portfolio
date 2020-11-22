@@ -35,7 +35,7 @@ image: ../img/logo3.png
   <div class="vlak">
     <div class="vlak-hover"></div>
     <div class="titel">Portfolio website</div>
-    <span class="verborgen"><a href='#'>View Project &#8594;</a></span>
+    <span class="verborgen"><a href='/webdesign/portfolio'>View Project &#8594;</a></span>
     <div class="text">Eleventy &#65372 Ready 2 Work &#65372 Coder</div>
   </div>
 
