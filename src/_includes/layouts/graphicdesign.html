@@ -1,0 +1,21 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+  <div class="imgHolder" style="background-image: url(/img/{{ background }}.jpg);">
+    <h1>{{ title }}</h1>
+    <div class="button">
+      <span><a href="/webdesign/{{ next }}">NXT</a></span>
+      <span><a href="/webdesign/{{ previous }}">PRV</a></span>
+    </div>
+  </div>
+  <div class="mainContainer">
+    <h2>{{ subtitle }}</h2>
+      <p>{{ tekst }}</p>
+
+    <h2>{{ programmes }}</h2>
+      <ul>
+        <li>{{ tekstje }}</li>
+      </ul>
+{{ content | safe }}
+
+{% endblock %}
