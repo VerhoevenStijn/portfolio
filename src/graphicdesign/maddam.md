@@ -14,7 +14,8 @@ image: '/img/logo3.png'
 background: 'maddamhero'
 custom_css: ""
 ---
-<iframe src="/img/maddam.pdf"></iframe>
+
+<a class="pdf" href="/img/maddam.pdf" download>Click to see the pdf-file</a>
 
 <div class="bookWrapper">
 	<div class="bookBg">

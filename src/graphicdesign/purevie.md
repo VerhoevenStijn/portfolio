@@ -14,7 +14,7 @@ image: '/img/logo3.png'
 background: 'pureviehero'
 custom_css: ""
 ---
-<iframe src="/img/boekpv.pdf"></iframe>
+<a class="pdf" href="/img/boekpv.pdf" download>Click to see the pdf-file</a>
 
 <div class="bookWrapper">
 	<div class="bookBg">

@@ -177,7 +177,7 @@ iframe{
     color:white;
     background-color: rgba(0,0,0,0.6);
   }
-  iframe{
+  .pdf{
     display: none;
   }
   .bookWrapper {

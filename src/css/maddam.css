@@ -121,13 +121,8 @@ ul li{
   display: none;
 }
 
-iframe{
-  margin: auto;
-  width: 90vw;
-  height: 70vw;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  margin-right: auto;
+.pdf{
+  display: block;
 }
 
 @media (min-width: 800px) {
@@ -177,7 +172,7 @@ iframe{
     color:white;
     background-color: rgba(0,0,0,0.6);
   }
-  iframe{
+  .pdf{
     display: none;
   }
   .bookWrapper {

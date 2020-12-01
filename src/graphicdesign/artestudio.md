@@ -14,7 +14,7 @@ image: '/img/logo3.png'
 background: 'artehero'
 custom_css: ""
 ---
-<a href="/img/artestudio.pdf" download>Click to see the pdf-file</a>
+<a class="pdf" href="/img/artestudio.pdf" download>Click to see the pdf-file</a>
 
 <div class="bookWrapper">
 	<div class="bookBg">
