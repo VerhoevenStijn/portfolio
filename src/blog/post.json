@@ -1,5 +1,0 @@
-{
-	"layout": "layouts/blog.html",
-	"permalink": "/blog/{{ title | slug }}/index.html",
-	"custom_css": "body {background-color: #faf0e4;}header nav ul li a.selected{color: #faf0e4;}"
-}

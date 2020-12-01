@@ -53,7 +53,7 @@ image: ../img/logo3.png
     <div class="text2">
       The perfect corporate identity and logo can represent much more than thousands of words. When I work on the branding of projects and enterprises, I always strive to <strong>incorporate the brand and the person behind the brand in my designs.</strong>
     </div>
-    <a href="#" class="link">Explore My Branding Skills &rarr;</a>
+    <a href="/graphicdesign" class="link">Explore My Branding Skills &rarr;</a>
   </div>
 
   <div class="mySlides fade">
@@ -61,7 +61,7 @@ image: ../img/logo3.png
     <div class="numbertext">3 / 3</div>
     <div class="text">Digital Marketing</div>
     <div class="text2">
-      TFor almost every company, large or small, young or old, marketing is and remains key. Where marketing 10 years ago was more of an offline thing, <strong>the pure focus today is online.</strong> Because of my digital knowledge I am able to transform ideas on paper into digital reality.
+      For almost every company, large or small, young or old, marketing is and remains key. Where marketing 10 years ago was more of an offline thing, <strong>the pure focus today is online.</strong> Because of my digital knowledge I am able to transform ideas on paper into digital reality.
     </div>
     <a href="#" class="link">Explore My Webdesign Skills &rarr;</a>
   </div>

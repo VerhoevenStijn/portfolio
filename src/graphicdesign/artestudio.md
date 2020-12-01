@@ -1,6 +1,6 @@
 ---
 title: Arte Studio
-next: ''
+next: 'poster'
 previous: 'maddam'
 subtitle: A DESIGN PROJECT FOR PENTAGRAM
 tekst:

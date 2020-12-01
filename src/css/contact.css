@@ -1,0 +1,166 @@
+body{
+  background-color: white;
+}
+h1{
+  position: relative;
+  z-index: 1;
+  font-size: 5rem;
+  margin-bottom: 5rem;
+  font-weight: bold;
+  color:white;
+  z-index:10;
+}
+
+p{
+  position: relative;
+  z-index: 1;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color:white;
+}
+
+p:nth-child(4){
+  margin-top: 2rem;
+}
+.leftContainer a{
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+
+}
+
+.leftContainer{
+  background-image: url(/img/hero-image.jpg);
+  width: 100vw;
+  height: 125vh;
+  position: absolute;
+  top: -40rem;
+  padding-top: 40rem;
+  padding-left: 2rem
+}
+
+.leftContainer::after{
+content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.6);
+    display: block;
+    z-index: 0;
+  }
+
+.rightContainer{
+  width: 90vw;
+  padding-left: 2rem;
+  position: absolute;
+  top: 70rem;
+}
+
+.rightContainer h2{
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+.rightContainer section{
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+#gmap_canvas{
+  width: 90vw;
+  height: 40vh;
+  position: relative;
+  z-index: 1;
+}
+div.gmap_canvas > a{
+  display: none;
+}
+
+footer{
+  display: none;
+}
+
+section:nth-child(2){
+  margin-bottom: 2rem;
+  width: 60rem;
+  position: relative;
+}
+
+section h3{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+section li{
+  margin-bottom: 2rem;
+}
+span{
+  color: grey;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  height: 20rem;
+}
+.menu a{
+  background:black;
+   color: white;
+   padding: 1rem;
+   font-size: 1.6rem;
+}
+.cnt{
+   margin-top: 2rem;
+}
+@media (min-width: 800px) {
+
+
+.leftContainer{
+  background-image: url(/img/hero-image.jpg);
+  width: 50vw;
+  height: 120vh;
+  position: absolute;
+  right:0;
+  top: -40rem;
+  padding-top: 40rem;
+  padding-left: 10rem;
+}
+
+.leftContainer::after{
+content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.6);
+    display: block;
+    z-index: 0;
+  }
+
+  .rightContainer{
+    position: absolute;
+    left: 0;
+    width: 50vw;
+    padding-left: 5rem;
+    top:0rem;
+    padding-right: 5rem;
+  }
+
+.menu{
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+}
+#gmap_canvas{
+  width: 40vw;
+  height: 40vh;
+  position: relative;
+  z-index: 1;
+}
+}
