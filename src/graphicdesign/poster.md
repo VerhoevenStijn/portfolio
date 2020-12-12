@@ -4,7 +4,7 @@ next: ''
 previous: 'artestudio'
 subtitle: A POSTER DESIGN FOR AN OPERA PLAY
 tekst:
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+  The Rusalka opera play is presented by Opera Ballet Vlaanderen. For this design I used some line drawings, which create an abstract image of the play. So you will see a prince and a mermaid that fall in love, however they are separated from each other due to their different living spaces.
 programmes: Programs
 tekstje: Illustrator - After Effects
 layout: 'layouts/graphicdesign.html'

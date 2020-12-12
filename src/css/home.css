@@ -127,7 +127,6 @@ h4{
 		z-index: -10;
 }
 
-/* Slideshow container */
 .slideshow-container {
 	max-width: 700px;
 	overflow:inherit;
@@ -141,12 +140,12 @@ h4{
 	z-index: -1;
 }
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -159,7 +158,6 @@ h4{
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   left: 0;
 	bottom: 0;
@@ -171,7 +169,8 @@ h4{
 	bottom: -5.8rem;
 	background-color: rgba(0,0,0,0.5);
 }
-/* On hover, add a black background color with a little bit see-through */
+
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -289,7 +288,6 @@ strong{
 			text-align: center;
 		}
 
-		/* Slideshow container */
 		.slideshow-container {
 			max-width: 700px;
 			overflow:inherit;
@@ -303,12 +301,12 @@ strong{
 			z-index: -1;
 		}
 
-		/* Hide the images by default */
+
 		.mySlides {
 		  display: none;
 		}
 
-		/* Next & previous buttons */
+
 		.prev, .next {
 		  cursor: pointer;
 		  position: absolute;
@@ -321,24 +319,22 @@ strong{
 		  user-select: none;
 		}
 
-		/* Position the "next button" to the right */
 		.next {
-		  left: 62rem;
-			bottom: 0;
+		  left: 89rem;
+			bottom: 0rem;
 			background-color: rgba(0,0,0,0.5);
 		}
 
 		.prev {
-			left: 0;
-			bottom:0;
+			left: 80rem;
+			bottom:0rem;
 			background-color: rgba(0,0,0,0.5);
 		}
-		/* On hover, add a black background color with a little bit see-through */
+
 		.prev:hover, .next:hover {
 		  background-color: rgba(0,0,0,0.8);
 		}
 
-		/* Caption text */
 		.text {
 		  color: black;
 		  font-size: 15px;
@@ -395,7 +391,7 @@ strong{
 		#object {
 		    position:	fixed;
 		    left: 100rem;
-		    bottom: 5%;
+		    bottom: 10rem;
 		    height: 30px;
 		    width: 1500px;
 				font-size: 15rem;

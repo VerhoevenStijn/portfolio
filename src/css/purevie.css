@@ -135,7 +135,8 @@ iframe{
   main{
     height: 180vh;
   }
-
+.mainContainer p{
+}
   .imgHolder h1{
     font-size: 5rem;
     z-index: 10;

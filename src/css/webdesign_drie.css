@@ -14,7 +14,10 @@ main{
 	position: absolute;
 	right: 3rem; top: 5.5rem;
 }
-
+#link{
+  padding: 0rem;
+  margin: 0rem;
+}
 nav ul li a {
   color: white;
   padding-bottom: 2rem;
@@ -135,6 +138,10 @@ main img{
 
   main{
     height: 180vh;
+  }
+  #link{
+    padding: 0rem;
+    margin: 0rem;
   }
 
   .imgHolder h1{

@@ -4,7 +4,7 @@ next: 'php'
 previous: 'ap'
 subtitle: Creation
 tekst:
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+  This portfolio represents a roundup of my knowledge in web development. My brandname Stanny's hub is created as this is my common nickname. On top of that, the word 'hub' stands for network which I would like to expand. The orange color is used as main color in this design. Orange is associated with joy, enthusiasm, creativity, happiness and encouragement which describe my personality. 
 programmes: programs
 tekstje: Coding | HTML - CSS - JS - Eleventy
 iframe: https://codesandbox.io/embed/sweet-hofstadter-injsy?fontsize=14&hidenavigation=1&theme=dark&view=editor

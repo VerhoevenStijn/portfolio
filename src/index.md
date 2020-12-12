@@ -63,7 +63,6 @@ image: ../img/logo3.png
     <div class="text2">
       For almost every company, large or small, young or old, marketing is and remains key. Where marketing 10 years ago was more of an offline thing, <strong>the pure focus today is online.</strong> Because of my digital knowledge I am able to transform ideas on paper into digital reality.
     </div>
-    <a href="#" class="link">Explore My Webdesign Skills &rarr;</a>
   </div>
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">PRV</a>

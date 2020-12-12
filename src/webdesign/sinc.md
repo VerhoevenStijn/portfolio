@@ -4,10 +4,12 @@ next: 'mit'
 previous: ''
 subtitle: SINC's website was born after an collaboration with fellow students
 tekst:
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+  In collaboration with the management of 'Students for Innovation & Cooperation' and a student colleague, we created the rebranded website. After discussing some prototypes, we figured out a certain style that has been used to make this new layout. As the blue color is key in the brand identity of SINC, it is extended throughout the entire website. Find out the new website on
 programmes: programs
+link_website: 'https://www.sincalumni.be'
 tekstje: Coding | WORDPRESS - ELEMENTOR
 iframe:
+hyperlink: www.sincalumni.be
 layout: 'layouts/webdesign3.html'
 custom_js: 'webdesign_sinc'
 link_css: 'webdesign_drie'

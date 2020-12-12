@@ -7,10 +7,14 @@ h1{
   font-size: 5rem;
   margin-bottom: 5rem;
   font-weight: bold;
-  color:white;
+  color:#ff6500;
   z-index:10;
 }
 
+.leftContainer-text{
+  position: absolute;
+  top: 60rem;
+}
 p{
   position: relative;
   z-index: 1;
@@ -18,7 +22,9 @@ p{
   margin-bottom: 3rem;
   color:white;
 }
-
+strong{
+  font-weight: bold;
+}
 p:nth-child(4){
   margin-top: 2rem;
 }
@@ -32,11 +38,13 @@ p:nth-child(4){
 }
 
 .leftContainer{
-  background-image: url(/img/hero-image.jpg);
+  background-image: url(/img/stijncv.jpg);
+  background-position: top;
+  background-size: cover;
   width: 100vw;
   height: 125vh;
   position: absolute;
-  top: -40rem;
+  top: -30rem;
   padding-top: 40rem;
   padding-left: 2rem
 }
@@ -57,7 +65,7 @@ content: "";
   width: 90vw;
   padding-left: 2rem;
   position: absolute;
-  top: 70rem;
+  top: 75rem;
 }
 
 .rightContainer h2{
@@ -86,7 +94,7 @@ footer{
 
 section:nth-child(2){
   margin-bottom: 2rem;
-  width: 60rem;
+  width: 90vw;
   position: relative;
 }
 
@@ -121,7 +129,9 @@ span{
 
 
 .leftContainer{
-  background-image: url(/img/hero-image.jpg);
+  background-image: url(/img/stijncv.jpg);
+  background-position: top;
+  background-size: cover;
   width: 50vw;
   height: 120vh;
   position: absolute;
@@ -151,6 +161,10 @@ content: "";
     top:0rem;
     padding-right: 5rem;
   }
+
+section:nth-child(2){
+  width: 60rem;
+}
 
 .menu{
   flex-direction: row;

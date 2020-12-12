@@ -4,7 +4,7 @@ next: ''
 previous: 'portfolio'
 subtitle: PHP Basics
 tekst:
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+  To create interactivity between the back end and the client side often PHP is used. I possess this language basic, but would like to extend my knowledge. In the application underneath I created a exchange rate calculator. 
 programmes: programs
 tekstje: Coding | PHP
 iframe: https://codesandbox.io/embed/empty-resonance-9mrzq?fontsize=14&hidenavigation=1&theme=dark&view=editor
