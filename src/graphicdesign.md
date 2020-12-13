@@ -1,5 +1,5 @@
 ---
-title: 'Graphics'
+title: 'Graphic Design'
 layout: 'layouts/home.html'
 custom_js: 'graphicdesign'
 link_css: 'graphicdesign'
