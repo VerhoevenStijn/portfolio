@@ -137,7 +137,10 @@ main img{
 @media (min-width: 800px) {
 
   main{
-    height: 180vh;
+    height: 200vh;
+  }
+  .width{
+    width: 70vw;
   }
   #link{
     padding: 0rem;

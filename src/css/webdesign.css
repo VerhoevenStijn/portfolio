@@ -147,13 +147,13 @@ header nav ul li a.selected{
   color:white;
 }
 
-h1{
+h2{
   font-size: 1.6rem;
   text-align: center;
   width: 80vw;
   margin-left:auto;
   margin-right:auto;
-  line-height: 4rem;
+  line-height: 2.5rem;
   margin-bottom: 6rem;
   max-width: 100rem;
   }
@@ -185,14 +185,24 @@ h1{
   transform: translateY(0);
   animation: none;
 }
-
+h1{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
 @keyframes come-in {
   to { transform: translateY(0); }
 }
 @media (min-width: 800px) {
-
   h1{
     font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  h2{
+    font-size: 2rem;
   }
   .verborgen{
     font-size: 4rem;

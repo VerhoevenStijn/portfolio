@@ -6,7 +6,8 @@ link_css: 'webdesign'
 custom_css: ''
 image: ../img/logo3.png
 ---
-<h1>I love to immerse myself in the world of web design and web development. Exploring website styles and figuring out the codes and structures behind them, are things that truly interest me and inspire me to get started myself. Discover my various projects here.</h1>
+<h1>Webdesign</h1>
+<h2>I love to immerse myself in the world of web design and web development. Exploring website styles and figuring out the codes and structures behind them, are things that truly interest me and inspire me to get started myself. Discover my various projects here.</h2>
 
 
 
